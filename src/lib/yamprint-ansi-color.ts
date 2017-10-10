@@ -14,7 +14,7 @@ export module Themes {
         regexp: chalk.hex('#6d872c'),
         boolean: chalk.hex("#2A00E8"),
         string: chalk.hex("#9b9b9b"),
-        number: chalk.hex("786CB0"),
+        number: chalk.hex("#786CB0"),
         date: chalk.blue,
         nul : chalk.red,
         undefined : chalk.red,
