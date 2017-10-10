@@ -18,7 +18,6 @@ install:
   - npm install -g npm-run
 script:
   - npm run build
-  - npm-run nyc --reporter=lcov --reporter=text-lcov --report lcovonly npm test
-  - npm-run codecov
+  - npm test
 node_js:
   - "6.1"

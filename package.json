@@ -1,11 +1,11 @@
 {
   "name": "yamprint-ansi-color",
-  "version": "0.5.0-b2",
+  "version": "0.5.0",
   "description": "Plugin that makes the yamprint pretty printer prettier.",
   "main": "dist/lib/index.js",
   "types": "dist/lib/index.d.ts",
   "scripts": {
-    "test": "node ./dist/__tests__/runner.js",
+    "test": "node ./dist/__tests__/example.js",
     "watch": "gulp watch",
     "build": "gulp build"
   },
