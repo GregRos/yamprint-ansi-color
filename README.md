@@ -1,5 +1,7 @@
-
 # yamprint-ansi-color
+![travis ci](https://travis-ci.org/GregRos/yamprint-ansi-color.svg?branch=master)
+
+
 Provides a colorful theme for yamprint.
 
 Usage: 

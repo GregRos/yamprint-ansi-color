@@ -49,6 +49,6 @@
     "chalk": "^2.1.0"
   },
   "peerDependencies": {
-    "yamprint": "^0.5.0-b2"
+    "yamprint": "^0.5.0"
   }
 }
