@@ -1,0 +1,54 @@
+{
+  "name": "yamprint-ansi-color",
+  "version": "0.5.0-b2",
+  "description": "Plugin that makes the yamprint pretty printer prettier.",
+  "main": "dist/lib/index.js",
+  "types": "dist/lib/index.d.ts",
+  "scripts": {
+    "test": "node ./dist/__tests__/runner.js",
+    "watch": "gulp watch",
+    "build": "gulp build"
+  },
+  "repository": "https://github.com/GregRos/yamprint-ansi-color",
+  "directories": {
+    "test": "dist/__tests__",
+    "lib": "dist/lib"
+  },
+  "keywords": [
+    "pretty-print",
+    "print",
+    "stringify",
+    "toString",
+    "log",
+    "color",
+    "console",
+    "yamprint"
+  ],
+  "files": [
+    "dist/",
+    "src/"
+  ],
+  "author": "Greg Rosenbaum",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chalk": "^0.4.31",
+    "@types/gulp": "^4.0.4",
+    "@types/node": "^8.0.33",
+    "del": "^3.0.0",
+    "glob": "^7.1.2",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-typescript": "^3.2.2",
+    "merge2": "^1.2.0",
+    "source-map-support": "^0.5.0",
+    "typescript": "^2.5.3"
+  },
+  "dependencies": {
+    "tslib": "^1.7.1",
+    "chalk": "^2.1.0"
+  },
+  "peerDependencies": {
+    "yamprint": "^0.5.0-b2"
+  }
+}
