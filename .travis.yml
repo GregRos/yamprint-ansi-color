@@ -16,6 +16,7 @@ cache:
 install:
   - npm install --save-dev
   - npm install -g npm-run
+  - npm install yamprint
 script:
   - npm run build
   - npm test
