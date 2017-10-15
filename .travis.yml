@@ -14,9 +14,9 @@ cache:
   directories:
     - node_modules
 install:
+  - npm install --save yamprint
   - npm install --save-dev
   - npm install -g npm-run
-  - npm install yamprint
 script:
   - npm run build
   - npm test
